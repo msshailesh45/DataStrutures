@@ -36,7 +36,7 @@ void display(int q[],int *front,int *count,int qsize)
     else
     {
         int i=*front;
-        for(int j=i;j<=*count;j++)
+        for(int j=0;j<*count;j++)
         {
             printf(" %d ",q[i]);
             i=(i+1)%qsize;
